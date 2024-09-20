@@ -41,7 +41,7 @@ const v3PoolSwapSigBytes = ethers_1.ethers.keccak256(ethers_1.ethers.toUtf8Bytes
 class Module {
     constructor(settings) {
         this.getterContract = () => new ethers_1.ethers.Contract("0x9FC8dA750c5D1e831a4AED1a8E54EfEB82A9adAc", Getter_json_1.default, this.settings.provider);
-        this.executeSwap = (provider = this.settings.wallet) => new ethers_1.ethers.Contract("0x37342c96f852a58Eb4f56d1CA93977c182559dAa", //"0x8679ab7983762a7AE7bafeC5e96Eefc5fBA125B3",
+        this.executeSwap = (provider = this.settings.wallet) => new ethers_1.ethers.Contract("0x37342c96f852a58Eb4f56d1CA93977c182559dAa",
         Executeswap_json_1.default, provider);
         this.settings = settings;
     }
