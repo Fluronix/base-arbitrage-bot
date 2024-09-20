@@ -1,0 +1,85 @@
+[
+    {
+        "inputs": [
+            {
+                "components": [
+                    {
+                        "internalType": "address",
+                        "name": "factory",
+                        "type": "address"
+                    },
+                    {
+                        "internalType": "uint24",
+                        "name": "version",
+                        "type": "uint24"
+                    }
+                ],
+                "internalType": "struct DexFactory[]",
+                "name": "dexFactory",
+                "type": "tuple[]"
+            },
+            {
+                "internalType": "address[]",
+                "name": "token01",
+                "type": "address[]"
+            },
+            {
+                "internalType": "uint256",
+                "name": "minLiq",
+                "type": "uint256"
+            }
+        ],
+        "name": "getPool",
+        "outputs": [
+            {
+                "components": [
+                    {
+                        "internalType": "address",
+                        "name": "pool",
+                        "type": "address"
+                    },
+                    {
+                        "internalType": "uint256",
+                        "name": "wethLiq",
+                        "type": "uint256"
+                    },
+                    {
+                        "internalType": "uint256",
+                        "name": "tokenLiq",
+                        "type": "uint256"
+                    },
+                    {
+                        "internalType": "uint24",
+                        "name": "version",
+                        "type": "uint24"
+                    },
+                    {
+                        "internalType": "uint24",
+                        "name": "poolFee",
+                        "type": "uint24"
+                    },
+                    {
+                        "internalType": "uint256",
+                        "name": "sqrtPriceX96",
+                        "type": "uint256"
+                    },
+                    {
+                        "internalType": "bool",
+                        "name": "tk0IsWeth",
+                        "type": "bool"
+                    }
+                ],
+                "internalType": "struct DexFactoryReturn[]",
+                "name": "",
+                "type": "tuple[]"
+            },
+            {
+                "internalType": "uint256",
+                "name": "",
+                "type": "uint256"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    }
+]
