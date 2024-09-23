@@ -25,5 +25,17 @@ To run the Base Arbitrage Bot, ensure you have the following installed:
 
 Follow the steps below to clone and install the bot on your local machine:
 
+1. Clone the repository:
+   
         git clone https://github.com/Fluronix/base-arbitrage-bot.git
         cd base-arbitrage-bot
+
+2.Install dependencies:
+
+         npm install
+         npm install typescript -g
+
+3. Change the "outDir": "./src"  from "src" to "dist" in the tsconfig.json file
+4. compile code
+
+           tsc
