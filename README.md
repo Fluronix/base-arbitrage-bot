@@ -30,12 +30,16 @@ Follow the steps below to clone and install the bot on your local machine:
         git clone https://github.com/Fluronix/base-arbitrage-bot.git
         cd base-arbitrage-bot
 
-2.Install dependencies:
+# Runing using docker
+
+# Runing using node.js
+
+1. Install dependencies:
 
          npm install
          npm install typescript -g
 
-3. Change the "outDir": "./src"  from "src" to "dist" in the tsconfig.json file
-4. compile code
+2. Change the "outDir": "./src"  from "src" to "dist" in the tsconfig.json file
+3. compile code
 
            tsc
