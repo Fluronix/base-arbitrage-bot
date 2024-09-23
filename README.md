@@ -4,6 +4,9 @@ The Base Arbitrage Bot is an automated trading bot designed to execute arbitrage
 
 # Features
 •	Automated Arbitrage Execution: The bot identifies arbitrage opportunities between different pairs of tokens across DEXs automatically.
+
 •	Blockchain Integration: Built on top of blockchain smart contracts, ensuring transparency and security.
+
 •	Fast Execution: Optimized for speed to minimize missed opportunities.
+
 •	Configurable Settings: User-configurable parameters such as minimum price discrepency tolerance.
