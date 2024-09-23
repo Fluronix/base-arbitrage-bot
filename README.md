@@ -10,3 +10,20 @@ The Base Arbitrage Bot is an automated trading bot designed to execute arbitrage
 •	Fast Execution: Optimized for speed to minimize missed opportunities.
 
 •	Configurable Settings: User-configurable parameters such as minimum price discrepency tolerance.
+
+
+# Prerequisites
+
+To run the Base Arbitrage Bot, ensure you have the following installed:
+
+1.	Node.js (v14 or later)
+2.	NPM (Node Package Manager)
+3.	A Web3 wallet (e.g., MetaMask) or access to a Web3 wallet.
+4.	Sufficient cryptocurrency balance ETH to cover gas fees and WETH to perform transactions.
+
+# Installation
+
+Follow the steps below to clone and install the bot on your local machine:
+
+        git clone https://github.com/Fluronix/base-arbitrage-bot.git
+        cd base-arbitrage-bot
