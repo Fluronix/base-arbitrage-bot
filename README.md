@@ -43,3 +43,10 @@ Follow the steps below to clone and install the bot on your local machine:
 3. compile code
 
            tsc
+4. Navigate to ./dist directory and edit the .env file with your preference and wallet private key or seedphrase. Note the websocket rpc url "ws://base.node.fluronix.app:8546/"  might not be active in the future.
+5. On the root directory of the /dist directory project
+
+         node main.js
+
+
+Enjoy!
