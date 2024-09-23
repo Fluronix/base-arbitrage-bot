@@ -44,6 +44,7 @@ Follow the steps below to clone and install the bot on your local machine:
 
         docker stop base-arbitrage-bot
 
+Enjoy!
 
 # Runing using node.js
 
