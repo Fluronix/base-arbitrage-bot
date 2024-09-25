@@ -23,6 +23,11 @@ To run the Base Arbitrage Bot, ensure you have the following installed:
 
 # Installation
 
+Tutorial Videos:
+Part1 - https://youtu.be/j1HwQIAzFdQ?si=NYYKXPZcLuoqHhHF
+Part2 - https://youtu.be/ZQL5wvImFKI?si=6HwF7DJlQqPg0gWx
+Part3 - https://youtu.be/WRLYNIROD9w?si=wG3qbBQN19rt89lv
+
 Follow the steps below to clone and install the bot on your local machine:
 
 1. Clone the repository:
