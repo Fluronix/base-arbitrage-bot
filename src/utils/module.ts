@@ -56,7 +56,7 @@ export class  Module {
     )
     public executeSwap = (provider:ethers.Provider|ethers.Wallet = this.settings.wallet)=>
         new ethers.Contract(
-        "0x0058977AE90652128779ad480473977cA7B74e8E",
+        "0x0058977AE90652128779ad480473977cA7B74e8E", //updated
         executeSwapAbi,
         provider
     )
